@@ -43,6 +43,9 @@
                                             <option value="Komputer">Komputer</option>
                                             <option value="Humor">Humor</option>
                                             <option value="Sains">Sains</option>
+                                            <option value="Novel">Novel</option>
+                                            <option value="Fiksi">Fiksi</option>
+                                            <option value="NonFiksi">NonFiksi</option>
                                         </select>
                                     </div>
                                     <div class="formgroup">
@@ -121,6 +124,9 @@
                                                                 <option <?=$hasil['jenisbuku'] == 'Komputer' ? 'selected':''; ?> value="Komputer">Komputer</option>
                                                                 <option <?=$hasil['jenisbuku'] == 'Humor' ? 'selected':''; ?> value="Humor">Humor</option>
                                                                 <option <?=$hasil['jenisbuku'] == 'Sains' ? 'selected':''; ?> value="Sains">Sains</option>
+                                                                <option <?=$hasil['jenisbuku'] == 'Novel' ? 'selected':''; ?> value="Novel">Novel</option>
+                                                                <option <?=$hasil['jenisbuku'] == 'Fiksi' ? 'selected':''; ?> value="Fiksi">Fiksi</option>
+                                                                <option <?=$hasil['jenisbuku'] == 'NonFiksi' ? 'selected':''; ?> value="NonFiksi">NonFiksi</option>
                                                             </select>
                                                         </div>
                                                         <div class="formgroup">
